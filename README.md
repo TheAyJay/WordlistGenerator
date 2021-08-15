@@ -1,5 +1,4 @@
 # WordlistGenerator
-A custom wordlist generator for bruteforce password attacks. Written in Python.
 There are lots of common password lists available online, but I wanted to code a solution that allows you to input custom keywords to create a stronger password list. The intent is to feed the custom list into Aircrack-ng on Kali Linux to find the password. 
 
 If you have deauthenticated a user/connection already and captured the handshake using the Aircrack-ng suite, then you can run through your wordlists offline to crack the password. For example, if I wanted to discover the password for a local coffeeshop named Joe's Java, I might create a keyword list like this:
