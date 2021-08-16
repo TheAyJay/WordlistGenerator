@@ -5,9 +5,28 @@ If you have deauthenticated a user/connection already and captured the handshake
 
 coffee, joe, java, bean
 
-I'd then run my Python script with those keywords as input. My script takes those words and performs a variety of transformations to create an extensive password list. These transformations include substituting common numbers/symbols for characters (e.g. "e" becomes "3"), capitalizing every and all letters, and appending common number and symbols to the front and end of the word. It then peforms the various combinations of those iterations (e.g. substitutions with numbers, then symbols appended or substitutions with symbols, then numbers appended). At the moment, my script would take the word "coffee" and generate 12,502 possible passwords.
+I'd then run my Python script with those keywords as input. My script takes those words and performs a variety of transformations to create an extensive password list. These transformations include substituting common numbers/symbols for characters (e.g. "e" becomes "3"), capitalizing every and all letters, and appending common number and symbols to the front and end of the word. It then peforms the various combinations of those iterations:
 
-The first 300 passwords generated from the keyword "coffee":
+- capitalization with numbers
+- capitalization with symbols
+- capitalization with substitutions
+- capitalization with numbers with symbols
+- capitalization with symbols with numbers
+- capitalization with substitutions with numbers
+- capitalization with substitutions with symbols
+- capitalization with substitutions with numbers with symbols
+- capitalization with substitutions with symbols with numbers
+- substitutions
+- substitutions with numbers
+- substitutions with symbols
+- substitutions with numbers with symbols
+- substitutions with symbols with numbers
+- numbers
+- numbers with symbols
+- symbols
+- symbols with numbers
+
+At the moment, my script would take the word "coffee" and generate 12,502 possible passwords. The first 300 passwords generated from the keyword "coffee":
 
 coffee
 Coffee
